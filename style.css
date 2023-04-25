@@ -1,5 +1,7 @@
 body {
 	font-family: Arial, sans-serif;
+    background-image: url("../login/img/bg.jpg");
+    background-attachment: fixed;
 	
 }
 
@@ -21,7 +23,7 @@ body {
     height: 50px;
     padding: 0 20px;
     cursor: pointer;
-    margin: 0 0 20px 0;
+    
     
 }
 
@@ -87,7 +89,17 @@ input:focus
 	-moz-transition:    all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 }
-
+.login1{
+	width:382px;
+	height: 40px;
+    text-align: center;
+	color: #fff;
+	background: #03b3b5;
+	line-height: 40px;
+	opacity: 0.95;
+  cursor: pointer
+}
+.login1:hover{opacity: 0.5}
 .login-box
 {
 	position: absolute;
@@ -95,7 +107,7 @@ input:focus
 	right: 0;
 	width: 100%;
 	height: calc(100% - 25px);
-	background: #fff;
+	
   border-radius:         5px;
   -moz-border-radius:    5px;
   -webkit-border-radius: 5px;
@@ -142,14 +154,23 @@ input:focus
 
 .or:before
 {
-	content: 'or';
-	width: 40px;
+	content: 'または';
+	width: 50px;
 	height: 18px;
 	position: absolute;
 	top: -5px;
 	right: calc(50% - 20px);
-	background-color: #fff;
+	background: white;
 	text-align: center;
 	line-height: 10px;
 	color: #555
+}
+.header-signup h2{
+	position: absolute;
+    bottom:2.3px;
+    left: 40%;
+    right: 40%;
+    text-align: center;
+    color: red;
+    font-size: 25px;
 }
